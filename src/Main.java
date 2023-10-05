@@ -22,6 +22,7 @@ public class Main {
             }
         }
         //Counts down from arrayLength, printing the values as it goes
+        System.out.println("Your values, reversed: ");
         for (int j = arrayLength - 1; j >= 0; j--) {
             System.out.println(intArray[j]);
         }
