@@ -9,21 +9,20 @@ public class Main {
         //initializes arrayLength counter variable
         int arrayLength = 0;
 
-        while (isTrue){
+        while (isTrue) {
             System.out.println("What integer would you like to add to the array?");
             int newInt = scanner.nextInt();
             //If input is not -1, add integer to array and increase arrayLength by one
-            if (newInt !=-1) {
+            if (newInt != -1) {
                 intArray[arrayLength] = newInt;
                 arrayLength++;
-            }
-            else {
+            } else {
                 //if input is -1 end program
                 isTrue = false;
             }
         }
         //Counts down from arrayLength, printing the values as it goes
-        for (int j = arrayLength - 1; j  >-1; j-- ) {
+        for (int j = arrayLength - 1; j > -1; j--) {
             System.out.println(intArray[j]);
         }
     }
