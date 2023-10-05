@@ -22,7 +22,7 @@ public class Main {
             }
         }
         //Counts down from arrayLength, printing the values as it goes
-        for (int j = arrayLength - 1; j > -1; j--) {
+        for (int j = arrayLength - 1; j >= 0; j--) {
             System.out.println(intArray[j]);
         }
     }
